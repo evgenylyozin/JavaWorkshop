@@ -9,6 +9,16 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
+    buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.1'
+    }
+}
+apply plugin: 'java'
+apply plugin: 'com.github.johnrengelman.shadow'
 }
 
 repositories {
@@ -22,6 +32,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:29.0-jre'
+
+    // https://mvnrepository.com/artifact/com.h2database/h2
+    implementation group: 'com.h2database', name: 'h2', version: '1.4.197'
 }
 
 application {
