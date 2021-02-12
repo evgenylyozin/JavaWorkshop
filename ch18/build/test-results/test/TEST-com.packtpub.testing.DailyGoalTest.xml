@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.packtpub.testing.DailyGoalTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-02-12T09:55:36" hostname="evgeny" time="0.048">
+  <properties/>
+  <testcase name="[1] 10000" classname="com.packtpub.testing.DailyGoalTest" time="0.028"/>
+  <testcase name="[2] 11000" classname="com.packtpub.testing.DailyGoalTest" time="0.003"/>
+  <testcase name="[1] 10" classname="com.packtpub.testing.DailyGoalTest" time="0.003"/>
+  <testcase name="[2] 9999" classname="com.packtpub.testing.DailyGoalTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

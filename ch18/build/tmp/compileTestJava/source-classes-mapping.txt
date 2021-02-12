@@ -1,0 +1,8 @@
+com/packtpub/testing/TempConverterTest.java
+ com.packtpub.testing.TempConverterTest
+com/packtpub/testing/CoordScheduleTest.java
+ com.packtpub.testing.CoordScheduleTest
+com/packtpub/testing/DailyGoalTest.java
+ com.packtpub.testing.DailyGoalTest
+com/packtpub/workflow/WorkflowMonitorTest.java
+ com.packtpub.workflow.WorkflowMonitorTest
